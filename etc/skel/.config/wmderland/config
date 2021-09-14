@@ -59,6 +59,7 @@ assign Transmission 9
 ; [Floating Rules]
 ; Applications that should be floating by default
 ; -----------------------------------------------------------------------
+floating Arcolinux-welcome-app.py true
 floating plasmashell true
 floating krunner true
 floating kcalc true
