@@ -142,6 +142,7 @@ bindsym $Mod+v tile_v
 bindsym $Mod+Shift+space toggle_floating
 bindsym $Mod+f toggle_fullscreen
 bindsym $Mod+Shift+q kill
+bindsym $Mod+q kill
 bindsym $Mod+Shift+Escape exit
 bindsym $Mod+Shift+r reload
 
