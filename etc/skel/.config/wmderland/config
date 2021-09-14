@@ -17,18 +17,17 @@
 ; `set $<Variable> = <Value>` to define your own variable
 ; -----------------------------------------------------------------------
 set gap_width = 10
-set border_width = 3
+set border_width = 2
 set min_window_width = 100
 set min_window_height = 100
 set float_move_step = 10
 set float_resize_step = 10
-set focused_color = ff596e84
-set unfocused_color = ff394859
+set focused_color = ff5e81ac
+set unfocused_color = ff4c566a
 set focus_follows_mouse = true
 
 set $Alt = Mod1
-set $Cmd = Mod4
-set $Mod = $Cmd
+set $Mod = Mod4
 
 
 ; [Spawning Rules]
@@ -170,13 +169,7 @@ bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
 bindsym XF86PowerOff exec qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
-bindsym $Mod+Escape exec toggle_screen.sh
 
-bindsym Control+Shift+3 exec scrotutl -f
-bindsym Control+Shift+4 exec scrotutl -s
-bindsym Control+Shift+space+4 exec
-
-bindsym $Mod+d exec rofi -show drun
 bindsym $Mod+Return goto_workspace 1; exec urxvt
 
 
