@@ -170,8 +170,8 @@ bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
 bindsym XF86PowerOff exec qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
 
-bindsym $Mod+Return goto_workspace 1; exec urxvt
-
+bindsym $Mod+Return exec urxvt
+;bindsym $Mod+Return goto_workspace 1; exec urxvt
 
 ; [Autostart]
 ; Applications to execute when WM starts up (DON'T append '&' at the end)
