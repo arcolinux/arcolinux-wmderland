@@ -28,7 +28,7 @@ dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/wmderland/sxhkd/sxhkdrc &
 
-conky -c $HOME/.config/wmderland/system-overview &
+#conky -c $HOME/.config/wmderland/system-overview &
 run variety &
 run nm-applet &
 run pamac-tray &
