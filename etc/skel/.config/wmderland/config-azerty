@@ -101,28 +101,28 @@ prohibit Wine,Wine System Tray true
 ; `bindsym <Modifier>+<Key> action1; action2; action3; ...` where
 ; an action can be either a built-in action or a shell command to execute
 ; -----------------------------------------------------------------------
-bindsym $Mod+1 goto_workspace 1
-bindsym $Mod+2 goto_workspace 2
-bindsym $Mod+3 goto_workspace 3
-bindsym $Mod+4 goto_workspace 4
-bindsym $Mod+5 goto_workspace 5
-bindsym $Mod+6 goto_workspace 6
-bindsym $Mod+7 goto_workspace 7
-bindsym $Mod+8 goto_workspace 8
-bindsym $Mod+9 goto_workspace 9
+bindsym $Mod+ampersand goto_workspace 1
+bindsym $Mod+eacute goto_workspace 2
+bindsym $Mod+quotedbl goto_workspace 3
+bindsym $Mod+apostrophe goto_workspace 4
+bindsym $Mod+parenleft goto_workspace 5
+bindsym $Mod+section goto_workspace 6
+bindsym $Mod+egrave goto_workspace 7
+bindsym $Mod+exclam goto_workspace 8
+bindsym $Mod+ccedilla goto_workspace 9
 
 bindsym $Mod+Shift+j workspace -1
 bindsym $Mod+Shift+k workspace +1
 
-bindsym $Mod+Shift+1 move_window_to_workspace 1
-bindsym $Mod+Shift+2 move_window_to_workspace 2
-bindsym $Mod+Shift+3 move_window_to_workspace 3
-bindsym $Mod+Shift+4 move_window_to_workspace 4
-bindsym $Mod+Shift+5 move_window_to_workspace 5
-bindsym $Mod+Shift+6 move_window_to_workspace 6
-bindsym $Mod+Shift+7 move_window_to_workspace 7
-bindsym $Mod+Shift+8 move_window_to_workspace 8
-bindsym $Mod+Shift+9 move_window_to_workspace 9
+bindsym $Mod+Shift+ampersand move_window_to_workspace 1
+bindsym $Mod+Shift+eacute move_window_to_workspace 2
+bindsym $Mod+Shift+quotedbl move_window_to_workspace 3
+bindsym $Mod+Shift+apostrophe move_window_to_workspace 4
+bindsym $Mod+Shift+parenleft move_window_to_workspace 5
+bindsym $Mod+Shift+section move_window_to_workspace 6
+bindsym $Mod+Shift+egrave move_window_to_workspace 7
+bindsym $Mod+Shift+exclam move_window_to_workspace 8
+bindsym $Mod+Shift+ccedilla move_window_to_workspace 9
 
 bindsym $Mod+h navigate_left
 bindsym $Mod+l navigate_right
@@ -141,7 +141,9 @@ bindsym $Mod+v tile_v
 bindsym $Mod+Shift+space toggle_floating
 bindsym $Mod+f toggle_fullscreen
 bindsym $Mod+Shift+q kill
+bindsym $Mod+Shift+a kill
 bindsym $Mod+q kill
+bindsym $Mod+a kill
 bindsym $Mod+Shift+Escape exit
 bindsym $Mod+Shift+r reload
 
