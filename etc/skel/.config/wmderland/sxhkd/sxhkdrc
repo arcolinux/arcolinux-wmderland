@@ -111,10 +111,6 @@ super + KP_Enter
 # SUPER + SHIFT KEYS
 #################################################################
 
-#File-Manager
-super + shift + Return
-	thunar
-
 #Keyboard dependent
 #File-Manager
 #super + shift + KP_Enter
