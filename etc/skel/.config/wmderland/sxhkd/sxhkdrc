@@ -310,7 +310,7 @@ ctrl + shift + Escape
     xfce4-taskmanager
 
 #thunar
-super + shift + enter
+super + shift + Return
     thunar
 
 
