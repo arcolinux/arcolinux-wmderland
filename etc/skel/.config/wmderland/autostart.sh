@@ -7,6 +7,12 @@ function run {
   fi
 }
 
+keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
+
+if [ $keybLayout = "be" ]; then
+  cp ~/.config/wmderland/config-azerty ~/.config/wmderland/config &
+fi
+
 #Find out your monitor name with xrandr or arandr (save and you get this line)
 #xrandr --output VGA-1 --primary --mode 1360x768 --pos 0x0 --rotate normal
 #xrandr --output DP2 --primary --mode 1920x1080 --rate 60.00 --output LVDS1 --off &

@@ -29,78 +29,46 @@ set focus_follows_mouse = true
 set $Alt = Mod1
 set $Mod = Mod4
 
-
 ; [Spawning Rules]
 ; Assign an application to a specific workspace
 ; -----------------------------------------------------------------------
-assign URxvt 1
-assign jetbrains-idea 2
-assign Google-chrome 3
-assign Firefox 3
-assign dolphin 4
-assign ark 4
-assign Et 5
-assign Wps 5
-assign Wpp 5
-assign vlc 6
-assign Popcorn-Time 6
-assign krita 7
-assign tiled 7
-assign Steam 8
-assign PCSX2 8
-assign PPSSPPQt 8
-assign Minecraft Launcher 8
-assign antimicro 9
-assign VirtualBox Manager 9
-assign Transmission 9
+;assign URxvt 1
+;assign Firefox 3
+;assign vlc 6
+;assign krita 7
+;assign Steam 8
+;assign Transmission 9
 
 
 ; [Floating Rules]
 ; Applications that should be floating by default
 ; -----------------------------------------------------------------------
-floating Arcolinux-welcome-app.py true
-floating plasmashell true
-floating krunner true
-floating kcalc true
-floating systemsettings true
-floating SimpleScreenRecorder true
-floating Sxiv true
-floating feh true
-floating mpv true
-floating Peek true
-floating Gcolor2 true
-floating Steam true
-floating PCSX2 true
-floating Wine true
-floating VirtualBox Machine true
-floating Vigilante true
-floating xfreerdp true
-floating steam_app_72850 true
-floating steam_app_105600 true
-floating com.hacklympics.main.Main true
-floating pyRollCall true
-
+;floating Arcolinux-welcome-app.py true
+;floating SimpleScreenRecorder true
+;floating Peek true
 
 ; [Fullscreen Rules]
 ; Applications that should be fullscreen by default
 ; -----------------------------------------------------------------------
-fullscreen Wine,maplelegendswindowed.exe true
-fullscreen insurgency_linux true
-fullscreen steam_app_72850 tesv_original.exe true
-fullscreen postal2-bin true
+;fullscreen some_application true
 
 
 ; [Prohibit Rules]
 ; Applications that should be prohibited from being launched
 ; -----------------------------------------------------------------------
-prohibit plasmashell,plasmashell,Desktop — Plasma true
-prohibit Wine,Wine System Tray true
+;prohibit plasmashell,plasmashell,Desktop — Plasma true
+;prohibit Wine,Wine System Tray true
 
 
 ; [Keybind]
 ; `bindsym <Modifier>+<Key> action1; action2; action3; ...` where
 ; an action can be either a built-in action or a shell command to execute
 ; -----------------------------------------------------------------------
+
+bindsym $Mod+Return exec urxvt
+bindsym $Mod+Shift+Return exec thunar
+;bindsym $Mod+Return goto_workspace 1; exec urxvt
+
 bindsym $Mod+1 goto_workspace 1
 bindsym $Mod+2 goto_workspace 2
 bindsym $Mod+3 goto_workspace 3
@@ -140,8 +108,10 @@ bindsym $Mod+g tile_h
 bindsym $Mod+v tile_v
 bindsym $Mod+Shift+space toggle_floating
 bindsym $Mod+f toggle_fullscreen
-bindsym $Mod+Shift+q kill
-bindsym $Mod+q kill
+#bindsym $Mod+Shift+q kill
+#bindsym $Mod+Shift+a kill
+#bindsym $Mod+q kill
+#bindsym $Mod+a kill
 bindsym $Mod+Shift+Escape exit
 bindsym $Mod+Shift+r reload
 
@@ -156,22 +126,18 @@ bindsym $Mod+$Alt+8 resize_set_ratio 80
 bindsym $Mod+$Alt+9 resize_set_ratio 90
 bindsym $Mod+$Alt+equal resize_reset_ratios
 
-bindsym XF86MonBrightnessUp exec light -A 10
-bindsym XF86MonBrightnessDown exec light -U 10
-bindsym XF86KbdBrightnessUp exec kbdlight up 10
-bindsym XF86KbdBrightnessDown exec kbdlight down 10
-bindsym XF86LaunchA exec rofi -show window
-bindsym XF86LaunchB exec rofi -show drun
-bindsym XF86AudioPrev exec mpc prev
-bindsym XF86AudioNext exec mpc next
-bindsym XF86AudioPlay exec mpc toggle
-bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
-bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
-bindsym XF86PowerOff exec qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
-
-bindsym $Mod+Return exec urxvt
-;bindsym $Mod+Return goto_workspace 1; exec urxvt
+;bindsym XF86MonBrightnessUp exec light -A 10
+;bindsym XF86MonBrightnessDown exec light -U 10
+;bindsym XF86KbdBrightnessUp exec kbdlight up 10
+;bindsym XF86KbdBrightnessDown exec kbdlight down 10
+;bindsym XF86LaunchA exec rofi -show window
+;bindsym XF86LaunchB exec rofi -show drun
+;bindsym XF86AudioPrev exec mpc prev
+;bindsym XF86AudioNext exec mpc next
+;bindsym XF86AudioPlay exec mpc toggle
+;bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
+;bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
+;bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
 
 ; [Autostart]
 ; Applications to execute when WM starts up (DON'T append '&' at the end)
@@ -194,4 +160,4 @@ bindsym $Mod+Return exec urxvt
 ;exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 ;exec /usr/lib/xfce4/notifyd/xfce4-notifyd &
 ;exec volumeicon &
-exec ~/.config/wmderland/autostart.sh
+exec $HOME/.config/wmderland/autostart.sh

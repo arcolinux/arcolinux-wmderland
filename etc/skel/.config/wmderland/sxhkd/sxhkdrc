@@ -78,6 +78,14 @@ super + h
 super + x
     arcolinux-logout
 
+#kill
+super + q
+    wmderlandc kill
+
+#kill
+super + shift + q
+    wmderlandc kill
+
 #Rofi theme selector
 super + r
     rofi-theme-selector

@@ -36,7 +36,6 @@ set $Mod = Mod4
 ;assign Firefox 3
 ;assign vlc 6
 ;assign krita 7
-;assign tiled 7
 ;assign Steam 8
 ;assign Transmission 9
 
@@ -109,10 +108,10 @@ bindsym $Mod+g tile_h
 bindsym $Mod+v tile_v
 bindsym $Mod+Shift+space toggle_floating
 bindsym $Mod+f toggle_fullscreen
-bindsym $Mod+Shift+q kill
-bindsym $Mod+Shift+a kill
-bindsym $Mod+q kill
-bindsym $Mod+a kill
+#bindsym $Mod+Shift+q kill
+#bindsym $Mod+Shift+a kill
+#bindsym $Mod+q kill
+#bindsym $Mod+a kill
 bindsym $Mod+Shift+Escape exit
 bindsym $Mod+Shift+r reload
 
@@ -139,7 +138,6 @@ bindsym $Mod+$Alt+equal resize_reset_ratios
 ;bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
 ;bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
 ;bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
-;bindsym XF86PowerOff exec qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
 
 ; [Autostart]
 ; Applications to execute when WM starts up (DON'T append '&' at the end)
