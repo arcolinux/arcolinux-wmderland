@@ -66,7 +66,7 @@ set $Mod = Mod4
 ; -----------------------------------------------------------------------
 
 bindsym $Mod+Return exec urxvt
-bindsym $Mod+Shift+Return exec thunar
+;bindsym $Mod+Shift+Return exec thunar
 ;bindsym $Mod+Return goto_workspace 1; exec urxvt
 
 bindsym $Mod+1 goto_workspace 1
@@ -113,7 +113,7 @@ bindsym $Mod+f toggle_fullscreen
 #bindsym $Mod+q kill
 #bindsym $Mod+a kill
 bindsym $Mod+Shift+Escape exit
-bindsym $Mod+Shift+r reload
+;bindsym $Mod+Shift+r reload
 
 bindsym $Mod+$Alt+1 resize_set_ratio 10
 bindsym $Mod+$Alt+2 resize_set_ratio 20

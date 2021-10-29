@@ -310,7 +310,7 @@ ctrl + shift + Escape
     xfce4-taskmanager
 
 #thunar
-ctrl + shift + enter
+super + shift + enter
     thunar
 
 
@@ -439,3 +439,6 @@ ctrl + alt + o
 # CTRL + ALT KEYS
 #################################################################
 
+#reload wmderland:
+super + shift + r
+    wmderlandc reload
