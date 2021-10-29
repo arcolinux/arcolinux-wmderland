@@ -309,6 +309,10 @@ alt + shift + u
 ctrl + shift + Escape
     xfce4-taskmanager
 
+#thunar
+ctrl + shift + enter
+    thunar
+
 
 #################################################################
 #     SCREENSHOTS
