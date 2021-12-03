@@ -28,7 +28,6 @@ fi
 feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 
-# put hashtag in front of next line to hide the welcome app + tickbox in app
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 xsetroot -cursor_name left_ptr &
