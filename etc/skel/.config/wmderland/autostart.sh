@@ -21,8 +21,6 @@ fi
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
 
-$HOME/.config/polybar/launch.sh &
-
 #change your keyboard if you need it
 #setxkbmap -layout be
 
@@ -30,7 +28,9 @@ $HOME/.config/polybar/launch.sh &
 feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 
+# put hashtag in front of next line to hide the welcome app + tickbox in app
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/wmderland/sxhkd/sxhkdrc &
 
