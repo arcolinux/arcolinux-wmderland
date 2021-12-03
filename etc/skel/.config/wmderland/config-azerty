@@ -69,28 +69,28 @@ bindsym $Mod+Return exec urxvt
 ;bindsym $Mod+Shift+Return exec thunar
 ;bindsym $Mod+Return goto_workspace 1; exec urxvt
 
-#bindsym $Mod+ampersand goto_workspace 1
-#bindsym $Mod+eacute goto_workspace 2
-#bindsym $Mod+quotedbl goto_workspace 3
-#bindsym $Mod+apostrophe goto_workspace 4
-#bindsym $Mod+parenleft goto_workspace 5
-#bindsym $Mod+section goto_workspace 6
-#bindsym $Mod+egrave goto_workspace 7
-#bindsym $Mod+exclam goto_workspace 8
-#bindsym $Mod+ccedilla goto_workspace 9
+;bindsym $Mod+ampersand goto_workspace 1
+;bindsym $Mod+eacute goto_workspace 2
+;bindsym $Mod+quotedbl goto_workspace 3
+;bindsym $Mod+apostrophe goto_workspace 4
+;bindsym $Mod+parenleft goto_workspace 5
+;bindsym $Mod+section goto_workspace 6
+;bindsym $Mod+egrave goto_workspace 7
+;bindsym $Mod+exclam goto_workspace 8
+;bindsym $Mod+ccedilla goto_workspace 9
 
 bindsym $Mod+Shift+j workspace -1
 bindsym $Mod+Shift+k workspace +1
 
-#bindsym $Mod+Shift+ampersand move_window_to_workspace 1
-#bindsym $Mod+Shift+eacute move_window_to_workspace 2
-#bindsym $Mod+Shift+quotedbl move_window_to_workspace 3
-#bindsym $Mod+Shift+apostrophe move_window_to_workspace 4
-#bindsym $Mod+Shift+parenleft move_window_to_workspace 5
-#bindsym $Mod+Shift+section move_window_to_workspace 6
-#bindsym $Mod+Shift+egrave move_window_to_workspace 7
-#bindsym $Mod+Shift+exclam move_window_to_workspace 8
-#bindsym $Mod+Shift+ccedilla move_window_to_workspace 9
+;bindsym $Mod+Shift+ampersand move_window_to_workspace 1
+;bindsym $Mod+Shift+eacute move_window_to_workspace 2
+;bindsym $Mod+Shift+quotedbl move_window_to_workspace 3
+;bindsym $Mod+Shift+apostrophe move_window_to_workspace 4
+;bindsym $Mod+Shift+parenleft move_window_to_workspace 5
+;bindsym $Mod+Shift+section move_window_to_workspace 6
+;bindsym $Mod+Shift+egrave move_window_to_workspace 7
+;bindsym $Mod+Shift+exclam move_window_to_workspace 8
+;bindsym $Mod+Shift+ccedilla move_window_to_workspace 9
 
 bindsym $Mod+h navigate_left
 bindsym $Mod+l navigate_right
@@ -104,14 +104,14 @@ bindsym $Mod+$Alt+h resize_width -3
 bindsym $Mod+$Alt+l resize_width +3
 bindsym $Mod+$Alt+k resize_height -3
 bindsym $Mod+$Alt+j resize_height +3
-#bindsym $Mod+g tile_h
-#bindsym $Mod+v tile_v
-#bindsym $Mod+Shift+space toggle_floating
-#bindsym $Mod+f toggle_fullscreen
-#bindsym $Mod+Shift+q kill
-#bindsym $Mod+Shift+a kill
-#bindsym $Mod+q kill
-#bindsym $Mod+a kill
+;bindsym $Mod+g tile_h
+;bindsym $Mod+v tile_v
+;bindsym $Mod+Shift+space toggle_floating
+;bindsym $Mod+f toggle_fullscreen
+;bindsym $Mod+Shift+q kill
+;bindsym $Mod+Shift+a kill
+;bindsym $Mod+q kill
+;bindsym $Mod+a kill
 bindsym $Mod+Shift+Escape exit
 ;bindsym $Mod+Shift+r reload
 
