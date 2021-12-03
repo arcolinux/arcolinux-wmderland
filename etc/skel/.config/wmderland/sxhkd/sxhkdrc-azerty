@@ -71,8 +71,8 @@ super + c
     conky-toggle
 
 #Htop
-super + h
-    urxvt 'htop task manager' -e htop
+#super + h
+#    urxvt 'htop task manager' -e htop
 
 #arcolinux-logout
 super + x
@@ -103,8 +103,8 @@ super + t
     urxvt
 
 #Pavucontrol
-super + v
-    pavucontrol
+#super + v
+#    pavucontrol
 
 #Pragha
 super + m
@@ -492,3 +492,8 @@ super + shift + exclam
     wmderlandc move_window_to_workspace 8
 super + shift + ccedilla
     wmderlandc move_window_to_workspace 9
+
+super + v
+    wmderlandc tile_v
+super + h 
+    wmderlandc tile_h
