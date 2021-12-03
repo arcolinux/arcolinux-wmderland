@@ -453,42 +453,42 @@ super + shift + r
 
 # goto workspace
 
-super + ampersand 
+super + 1 
     wmderlandc goto_workspace 1
-super + eacute 
+super + 2 
     wmderlandc goto_workspace 2
-super + quotedbl 
+super + 3 
     wmderlandc goto_workspace 3
-super + apostrophe
+super + 4
     wmderlandc goto_workspace 4
-super + parenleft
+super + 5
     wmderlandc goto_workspace 5
-super + section
+super + 6
     wmderlandc goto_workspace 6
-super + egrave
+super + 7
     wmderlandc goto_workspace 7
-super + exclam
+super + 8
     wmderlandc goto_workspace 8
-super + ccedilla
+super + 9
     wmderlandc goto_workspace 9
 
 # move windows to workspace without focus
 
-super + shift + ampersand
+super + shift + 1
     wmderlandc move_window_to_workspace 1
-super + shift + eacute
+super + shift + 2
     wmderlandc move_window_to_workspace 2
-super + shift + quotedbl
+super + shift + 3
     wmderlandc move_window_to_workspace 3
-super + shift + apostrophe
+super + shift + 4
     wmderlandc move_window_to_workspace 4
-super + shift + parenleft
+super + shift + 5
     wmderlandc move_window_to_workspace 5
-super + shift + section
+super + shift + 6
     wmderlandc move_window_to_workspace 6
-super + shift + egrave
+super + shift + 7
     wmderlandc move_window_to_workspace 7
-super + shift + exclam
+super + shift + 8
     wmderlandc move_window_to_workspace 8
-super + shift + ccedilla
+super + shift + 9
     wmderlandc move_window_to_workspace 9
