@@ -65,7 +65,7 @@ set $Mod = Mod4
 ; an action can be either a built-in action or a shell command to execute
 ; -----------------------------------------------------------------------
 
-bindsym $Mod+Return exec urxvt
+;bindsym $Mod+Return exec urxvt
 ;bindsym $Mod+Shift+Return exec thunar
 ;bindsym $Mod+Return goto_workspace 1; exec urxvt
 
@@ -79,8 +79,8 @@ bindsym $Mod+Return exec urxvt
 ;bindsym $Mod+8 goto_workspace 8
 ;bindsym $Mod+9 goto_workspace 9
 
-bindsym $Mod+Shift+j workspace -1
-bindsym $Mod+Shift+k workspace +1
+;bindsym $Mod+Shift+j workspace -1
+;bindsym $Mod+Shift+k workspace +1
 
 ;bindsym $Mod+Shift+1 move_window_to_workspace 1
 ;bindsym $Mod+Shift+2 move_window_to_workspace 2
@@ -92,39 +92,43 @@ bindsym $Mod+Shift+k workspace +1
 ;bindsym $Mod+Shift+8 move_window_to_workspace 8
 ;bindsym $Mod+Shift+9 move_window_to_workspace 9
 
-bindsym $Mod+h navigate_left
-bindsym $Mod+l navigate_right
-bindsym $Mod+k navigate_up
-bindsym $Mod+j navigate_down
-bindsym $Mod+$Alt+Shift+h float_move_left
-bindsym $Mod+$Alt+Shift+l float_move_right
-bindsym $Mod+$Alt+Shift+k float_move_up
-bindsym $Mod+$Alt+Shift+j float_move_down
-bindsym $Mod+$Alt+h resize_width -3
-bindsym $Mod+$Alt+l resize_width +3
-bindsym $Mod+$Alt+k resize_height -3
-bindsym $Mod+$Alt+j resize_height +3
+;bindsym $Mod+h navigate_left
+;bindsym $Mod+l navigate_right
+;bindsym $Mod+k navigate_up
+;bindsym $Mod+j navigate_down
+
+;bindsym $Mod+$Alt+Shift+h float_move_left
+;bindsym $Mod+$Alt+Shift+l float_move_right
+;bindsym $Mod+$Alt+Shift+k float_move_up
+;bindsym $Mod+$Alt+Shift+j float_move_down
+
+;bindsym $Mod+$Alt+h resize_width -3
+;bindsym $Mod+$Alt+l resize_width +3
+;bindsym $Mod+$Alt+k resize_height -3
+;bindsym $Mod+$Alt+j resize_height +3
+
 ;bindsym $Mod+g tile_h
 ;bindsym $Mod+v tile_v
+
 ;bindsym $Mod+Shift+space toggle_floating
 ;bindsym $Mod+f toggle_fullscreen
 ;bindsym $Mod+Shift+q kill
 ;bindsym $Mod+Shift+a kill
 ;bindsym $Mod+q kill
 ;bindsym $Mod+a kill
-bindsym $Mod+Shift+Escape exit
+;bindsym $Mod+Shift+Escape exit
 ;bindsym $Mod+Shift+r reload
 
-bindsym $Mod+$Alt+1 resize_set_ratio 10
-bindsym $Mod+$Alt+2 resize_set_ratio 20
-bindsym $Mod+$Alt+3 resize_set_ratio 30
-bindsym $Mod+$Alt+4 resize_set_ratio 40
-bindsym $Mod+$Alt+5 resize_set_ratio 50
-bindsym $Mod+$Alt+6 resize_set_ratio 60
-bindsym $Mod+$Alt+7 resize_set_ratio 70
-bindsym $Mod+$Alt+8 resize_set_ratio 80
-bindsym $Mod+$Alt+9 resize_set_ratio 90
-bindsym $Mod+$Alt+equal resize_reset_ratios
+;bindsym $Mod+$Alt+1 resize_set_ratio 10
+;bindsym $Mod+$Alt+2 resize_set_ratio 20
+;bindsym $Mod+$Alt+3 resize_set_ratio 30
+;bindsym $Mod+$Alt+4 resize_set_ratio 40
+;bindsym $Mod+$Alt+5 resize_set_ratio 50
+;bindsym $Mod+$Alt+6 resize_set_ratio 60
+;bindsym $Mod+$Alt+7 resize_set_ratio 70
+;bindsym $Mod+$Alt+8 resize_set_ratio 80
+;bindsym $Mod+$Alt+9 resize_set_ratio 90
+;bindsym $Mod+$Alt+equal resize_reset_ratios
 
 ;bindsym XF86MonBrightnessUp exec light -A 10
 ;bindsym XF86MonBrightnessDown exec light -U 10
@@ -143,22 +147,5 @@ bindsym $Mod+$Alt+equal resize_reset_ratios
 ; Applications to execute when WM starts up (DON'T append '&' at the end)
 ; -----------------------------------------------------------------------
 
-;exec picom --config ~/.config/wmderland/picom.conf
-;exec_on_reload ~/.config/polybar/launch.sh
-;exec dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-;exec xsetroot -cursor_name left_ptr &
-;exec sxhkd -c ~/.config/wmderland/sxhkd/sxhkdrc &
-
-;conky -c $HOME/.config/bspwm/system-overview &
-;exec variety &
-;exec nm-applet &
-;exec pamac-tray &
-;exec xfce4-power-manager &
-;exec numlockx on &
-;exec blueberry-tray &
-;exec picom --config $HOME/.config/bspwm/picom.conf &
-;exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-;exec /usr/lib/xfce4/notifyd/xfce4-notifyd &
-;exec volumeicon &
 exec $HOME/.config/wmderland/autostart.sh
 exec_on_reload ~/.config/polybar/launch.sh
