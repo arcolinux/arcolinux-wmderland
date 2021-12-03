@@ -78,6 +78,14 @@ super + h
 super + x
     arcolinux-logout
 
+#toggle floating
+super + shift + space
+    wmderlandc toggle_floating
+
+#toggle fullscreen
+super + f
+    wmderlandc toggle_fullscreen
+
 #kill
 super + q
     wmderlandc kill

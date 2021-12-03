@@ -104,10 +104,10 @@ bindsym $Mod+$Alt+h resize_width -3
 bindsym $Mod+$Alt+l resize_width +3
 bindsym $Mod+$Alt+k resize_height -3
 bindsym $Mod+$Alt+j resize_height +3
-bindsym $Mod+g tile_h
-bindsym $Mod+v tile_v
-bindsym $Mod+Shift+space toggle_floating
-bindsym $Mod+f toggle_fullscreen
+#bindsym $Mod+g tile_h
+#bindsym $Mod+v tile_v
+#bindsym $Mod+Shift+space toggle_floating
+#bindsym $Mod+f toggle_fullscreen
 #bindsym $Mod+Shift+q kill
 #bindsym $Mod+Shift+a kill
 #bindsym $Mod+q kill
