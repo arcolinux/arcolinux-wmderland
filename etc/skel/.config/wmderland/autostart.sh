@@ -11,6 +11,7 @@ keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
 if [ $keybLayout = "be" ]; then
   cp ~/.config/wmderland/config-azerty ~/.config/wmderland/config &
+  cp ~/.config/wmderland/sxhkd/sxhkdrc-azerty ~/.config/wmderland/sxhkd/sxhkdrc &
 fi
 
 #Find out your monitor name with xrandr or arandr (save and you get this line)
