@@ -27,7 +27,8 @@ set unfocused_color = ff4c566a
 set focus_follows_mouse = true
 
 set $Alt = Mod1
-set $Mod = Mod4
+set $Cmd = Mod4
+set $Mod = $Cmd
 
 ; [Spawning Rules]
 ; Assign an application to a specific workspace
@@ -56,8 +57,8 @@ set $Mod = Mod4
 ; [Prohibit Rules]
 ; Applications that should be prohibited from being launched
 ; -----------------------------------------------------------------------
-;prohibit plasmashell,plasmashell,Desktop — Plasma true
-;prohibit Wine,Wine System Tray true
+prohibit plasmashell,plasmashell,Desktop — Plasma true
+prohibit Wine,Wine System Tray true
 
 
 ; [Keybind]
