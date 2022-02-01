@@ -110,18 +110,18 @@ super + t
 super + m
     pragha
 
-#urxvt
+#alacritty
 super + Return
-    urxvt
+    alacritty
 
 #Xkill
 super + Escape
     xkill
 
 #Keyboard dependent
-#urxvt
+#alacritty
 super + KP_Enter
-	urxvt
+	alacritty
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -213,13 +213,13 @@ ctrl + alt + r
 ctrl + alt + s
    spotify
 
-#urxvt
+#alacritty
 ctrl + alt + Return
-    urxvt
+    alacritty
 
-#urxvt
+#alacritty
 ctrl + alt + t
-    urxvt
+    alacritty
 
 #Vivaldi
 ctrl + alt + v
@@ -231,9 +231,9 @@ ctrl + alt + a
 
 
 #Keyboard dependent
-#urxvt
+#alacritty
 #ctrl + alt + KP_Enter
-#     urxvt
+#     alacritty
 
 
 #################################################################
