@@ -53,4 +53,3 @@ run volumeicon &
 #run insync start &
 #run discord &
 #run spotify &
-#run atom &
